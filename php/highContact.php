@@ -1,6 +1,6 @@
-<form id="high-contacto" name="high_frm" action="php/agregar-contacto.php" method="post" enctype="multipart/form-data">
+<form id="high-contacto" name="high_frm" action="php/addContact.php" method="post" enctype="multipart/form-data">
 	<fieldset>
-		<legend>Alta de Contacto</legend>
+		<legend>Agregar contacto</legend>
 		<div>
 			<label for="email">Email: </label>
 			<input type="email" id="email" class="change" name="email_txt" placeholder="Escribe tu email" title="Tu email" required />
