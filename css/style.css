@@ -132,3 +132,12 @@ ul{
 	-webkit-transition: all 1.5s ease-out;
 	transition: all 1.5s ease-out;
 }
+
+.messages{
+	background-color: yellow;
+	border-radius:.5em;
+	color: #000;
+	font-family: Helvetica, Verdana;
+	font-size: 1em;
+	padding: .5em;
+}
