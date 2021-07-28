@@ -2,13 +2,13 @@
     //assign form data to variables
     $email = $_POST["email_txt"];
     $nameContact = $_POST["nameUser_txt"];
-    $sex = $_POST["sexo_rdo"];
+    $sex = $_POST["sex_rdo"];
     $birth = $_POST["birth_txt"];
     $phone = $_POST["phone_txt"];
     $country = $_POST["country_slc"];
 
     //depending on the sex we put a predetermined image
-    $image_generic = ($sex=="M")?"img/photos/man.png":"img/photos/woman.png";
+    $image_generic = ($sex=="M")?"man.png":"woman.png";
 
     //we verify that the user's email does not already exist in the DB
     include("connection.php");
