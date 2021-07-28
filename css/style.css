@@ -101,6 +101,38 @@ nav, #primary{
 	width: 20%;
 	vertical-align: top;
 }
+table{
+	border: .1em solid #F60;
+	border-radius:1em;
+	cursor: default;
+	font-family: Helvetica, Verdana;
+	font-size: .75em;
+	padding: .25em;
+	width:100%;
+}
+table img{
+	max-width:5%;
+	border-radius:50%;
+}
+
+table td{
+	border: .1em solid #212121;
+	border-radius:.5em;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+table tr{
+	background: rgb(223, 251, 255);
+}
+
+table thead tr{
+	background: transparent;
+}
+
+table tr:nth-child(even){
+	background: rgb(178, 224, 255);
+}
 
 ul{
 	list-style: none;
